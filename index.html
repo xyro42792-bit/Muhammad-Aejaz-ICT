@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>KIET University - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="page">
+
+    
+    <header id="top">
+        <h1>KIET University</h1>
+        <h2>Karachi Institute of Economics and Technology</h2>
+    </header>
+
+    
+    <nav>
+        <ul id="navigation">
+            <li><a href="#about">About</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#admission">Admission</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="welcome">
+       <video class="main-img" controls autoplay muted loop>
+    <source src="kiet.mp4" type="video/mp4">
+    
+</video>
+
+    
+        <h2>Shape your future with us</h2>
+        <input type="button" value="Click for Welcome" onClick="showWelcome()">
+        <div id="welcomeBox">
+            <p>Welcome to KIET University! We are happy to see you here.</p>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <h2>About the University</h2>
+        <img src="123.jpg" alt="University library" class="side-img">
+        <p>KIET University is a place where students learn, grow and build their careers.
+        Our teachers guide students in Computer Science, Business and Engineering
+        with a strong focus on practical skills.</p>
+        <p>Our campus has modern labs, a big library and friendly study areas,
+        so every student can learn in a comfortable environment.</p>
+    </section>
+
+    
+    <section id="departments">
+        <h2>Our Departments</h2>
+        <ul class="dept-list">
+            <li>Department of Computer Science</li>
+            <li>Department of Business Administration</li>
+            <li>Department of Electrical Engineering</li>
+            <li>Department of Economics</li>
+            <li>Department of Mathematics</li>
+            <li>Department of English</li>
+        </ul>
+    </section>
+
+    
+    <section id="programs">
+        <h2>Academic Programs</h2>
+        <table>
+            <tr>
+                <th>Program</th>
+                <th>Duration</th>
+                <th>Degree Title</th>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>4 Years</td>
+                <td>BS (CS)</td>
+            </tr>
+            <tr>
+                <td>Business Administration</td>
+                <td>4 Years</td>
+                <td>BBA</td>
+            </tr>
+            <tr>
+                <td>Electrical Engineering</td>
+                <td>4 Years</td>
+                <td>BE (Electrical)</td>
+            </tr>
+            <tr>
+                <td>Economics</td>
+                <td>2 Years</td>
+                <td>MSc (Economics)</td>
+            </tr>
+        </table>
+    </section>
+
+        <section id="admission">
+        <h2>Admission Inquiry Form</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Contact Number:</label>
+            <input type="text" placeholder="03XX-XXXXXXX">
+
+            <label>Gender:</label>
+            <div class="gender">
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </div>
+
+            <label>Program:</label>
+            <select>
+                <option>Computer Science</option>
+                <option>Business Administration</option>
+                <option>Electrical Engineering</option>
+                <option>Economics</option>
+            </select>
+
+            <input type="submit" value="Submit Inquiry">
+        </form>
+    </section>
+
+    
+    <footer id="contact">
+        <p>KIET University, North Nazimabad, Karachi</p>
+        <p>Email: info@kiet.edu.pk | Phone: 021-1234567</p>
+        <p><a href="#top">Back to top</a></p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
